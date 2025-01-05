@@ -6,7 +6,7 @@ gcc -o DetectDisplays.exe Detect.c
 # 1.1 Detecting Connected Displays
 _Using non-unicode definitions of functions - for eazier understanding and learning_<br><br>
 
-**Brief explanation:** the result is a list of available (connected) monitors.
+**Brief Explanation:** the result is a list of available (connected) monitors.
 
 [DISPLAY_DEVICE](https://learn.microsoft.com/en-us/windows/win32/api/wingdi/ns-wingdi-display_devicea) structure lets us receive information 
 for example about _what displays are connected, what are their names and see their status_. First you begin with declarating such structure in 
