@@ -18,7 +18,7 @@ void CheckMonitorForWindow(HWND hWnd) {
     if (GetMonitorInfo(hMonitor, (LPMONITORINFO)&monitorInfo)) {
         printf("The Window is on Display %s\n", monitorInfo.szDevice);
     } else {
-        printf("Nie udało się pobrać informacji o monitorze.\n");
+        printf("Could not receive information about Display Device.\n");
     }
 }
 
@@ -41,7 +41,7 @@ LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
 }
 
 int main() {
-    const char CLASS_NAME[] = "Sample Window Class";
+    const char CLASS_NAME[] = "MovingWindow";
 
     WNDCLASS wc = {};
     wc.lpfnWndProc = WindowProc;
