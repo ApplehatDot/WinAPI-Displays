@@ -8,7 +8,7 @@
 
 typedef struct {
     HWND hwnd;
-    TCHAR selectedMonitor[32];
+    char selectedMonitor[32];
 } MonitorEnumData;
 
 BOOL CALLBACK EnumDisplayMonitorsProc(HMONITOR hMonitor, HDC hdcMonitor, LPRECT lprcMonitor, LPARAM dwData);
