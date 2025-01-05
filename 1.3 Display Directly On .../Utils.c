@@ -9,7 +9,7 @@
 
 typedef struct {
     HWND hwnd;
-    TCHAR selectedMonitor[32];
+    char selectedMonitor[32];
 } MonitorEnumData;
 
 // Processing function for each monitor
