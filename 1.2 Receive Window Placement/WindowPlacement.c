@@ -73,7 +73,7 @@ int main() {
             DispatchMessage(&msg);
         }
     } else {
-        printf("Nie udało się utworzyć okna.\n");
+        printf("Could not create the window.\n");
     }
 
     return 0;
