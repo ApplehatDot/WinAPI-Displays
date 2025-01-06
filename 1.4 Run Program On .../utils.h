@@ -1,6 +1,6 @@
 /* WinAPI - 1.4 run program On ...
  *		Github: https://github.com/ApplehatDot
- * 		Enum and Window Creation functions - header file
+ * 		Enum functions - header file
  */
  
 #ifndef UTILS_H
